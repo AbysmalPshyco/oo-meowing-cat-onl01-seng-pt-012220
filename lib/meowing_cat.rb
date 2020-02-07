@@ -6,4 +6,6 @@ def meow
   puts "meow!"
 end
 
+maru = Cat.new 
+
 maru.meow
