@@ -2,10 +2,9 @@ class Cat
   attr_accessor :name 
 end
 
- attr_writer
+ attr_accessor :meow
   puts "meow!"
 end
-
 
 maru = Cat.new 
 maru.name = "Maru"
